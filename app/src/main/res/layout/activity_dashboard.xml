@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/etMobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/edit_border"
+        android:digits="0123456789"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:hint="Enter MobileNumber"
+        android:inputType="phone"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/edit_border"
+        android:hint="Enter UserName"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+
+        android:inputType="textPersonName"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/edit_border"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+
+        android:hint="Enter EmailAddress"
+        android:inputType="textEmailAddress"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etUserAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+
+        android:layout_marginRight="25dp"
+        android:background="@drawable/edit_border"
+        android:digits="0123456789"
+        android:hint="Enter UserAge"
+        android:inputType="number"
+        android:padding="12dp" />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/edit_border"
+        android:hint="Enter Password"
+        android:inputType="text"
+        android:padding="12dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvUpdate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_border"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="UPDATE"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.01" />
+
+        <TextView
+            android:id="@+id/tvStudentList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/btn_border"
+            android:gravity="center"
+            android:padding="12dp"
+            android:text="STUDENTS LIST"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
